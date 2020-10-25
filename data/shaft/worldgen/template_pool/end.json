@@ -1,11 +1,11 @@
 {
-  "name": "shaft:starts",
-  "fallback": "shaft:end",
+  "name": "shaft:end",
+  "fallback": "minecraft:empty",
   "elements": [
     {
-      "weight": 10,
+      "weight": 1,
       "element": {
-        "location": "shaft:track/straight",
+        "location": "shaft:track/end",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:legacy_single_pool_element"

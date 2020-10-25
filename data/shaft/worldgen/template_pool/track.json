@@ -1,9 +1,9 @@
 {
   "name": "shaft:track",
-  "fallback": "minecraft:empty",
+  "fallback": "shaft:end",
   "elements": [
     {
-      "weight": 10,
+      "weight": 50,
       "element": {
         "location": "shaft:track/straight",
         "processors": "minecraft:empty",
@@ -12,7 +12,7 @@
       }
     },
     {
-      "weight": 2,
+      "weight": 10,
       "element": {
         "location": "shaft:track/split",
         "processors": "minecraft:empty",
@@ -21,7 +21,7 @@
       }
     },
     {
-      "weight": 2,
+      "weight": 10,
       "element": {
         "location": "shaft:track/turn_left",
         "processors": "minecraft:empty",
@@ -30,7 +30,7 @@
       }
     },
     {
-      "weight": 2,
+      "weight": 10,
       "element": {
         "location": "shaft:track/turn_right",
         "processors": "minecraft:empty",
@@ -39,7 +39,7 @@
       }
     },
     {
-      "weight": 5,
+      "weight": 1,
       "element": {
         "location": "shaft:track/end",
         "processors": "minecraft:empty",
